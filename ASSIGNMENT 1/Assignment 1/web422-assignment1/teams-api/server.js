@@ -1,4 +1,4 @@
-let pass1 = encodeURIComponent("Gal@xys2");
+let pass1 = encodeURIComponent("my password");
 const mongoose=require("mongoose");
 mongoose.Promise=global.Promise;
 const mongoDBConnectionString = `mongodb://Dyodgorov:${pass1}@cluster0-shard-00-00-ywhpd.mongodb.net:27017,cluster0-shard-00-01-ywhpd.mongodb.net:27017,cluster0-shard-00-02-ywhpd.mongodb.net:27017/teams-api-data?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true`;
