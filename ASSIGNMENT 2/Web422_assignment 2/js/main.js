@@ -33,7 +33,6 @@ function showGenericModal(title,message)
     
 }
 
-
 /*********************************************************************************************** */
 // refreshEmployeeRows function
 function refreshEmployeeRows(employees) 
@@ -93,7 +92,6 @@ function getEmployeeModelById(id)
     }
     
 }
-
 /********************************************************************************************** */
 //making sure that my DOM is loaded properly
 $(document).ready(function(){
