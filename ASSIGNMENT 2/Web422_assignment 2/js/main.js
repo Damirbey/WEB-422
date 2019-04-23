@@ -1,7 +1,6 @@
 let employeesModel=[]; // global array used to store all employees received from teams-api
 
 // initializeEmployeesModel function
-
 function initializeEmployeesModel()
     {
         $.ajax({
