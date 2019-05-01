@@ -14,7 +14,7 @@
                 
           </thead>
           <tbody >
-            <tr *ngFor="let p of positions" (click)="routePosition(p._id)">
+            <tr *ngFor="let p of positions">
                 <td>{{p.PositionName}}</td>
                 <td>{{p.PositionDescription}} </td>
                 <td>${{p.PositionBaseSalary | number:'2.2'}}</td>

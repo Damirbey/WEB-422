@@ -10,9 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { PositionsComponent } from './positions/positions.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { EmployeeComponent } from './employee/employee.component';
-import { PositionComponent } from './position/position.component';
-import {FormsModule} from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,15 +20,12 @@ import {FormsModule} from '@angular/forms';
     HomeComponent,
     EmployeesComponent,
     PositionsComponent,
-    PageNotFoundComponent,
-    EmployeeComponent,
-    PositionComponent
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    FormsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
